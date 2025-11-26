@@ -1,0 +1,500 @@
+/*Импорт шрифтов*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+/* Цвет страницы */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  min-height: 100vh;
+}
+/*Вигляд на мобыльному*/
+.phone {
+    width: 380px;
+    height: 1100px;
+    position: relative;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    border: 3px solid #ffffff14;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.fon {
+    position: absolute;
+    width: 380px;
+    height: 1100px;
+    background: url(..img/polos.svg);
+filter: blur(5px);
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50pxs;
+    left: 35px;
+    top: 10px;
+    opacity: 50%;
+}
+.tapstore {
+    /* TAP STORE */
+
+position: absolute;
+width: 130px;
+height: 27px;
+left: 130px;
+top: 15px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 22.9px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 10px #FFFFFF, 0px 0px 15px #FFFFFF, 0px 0px 25px #FFFFFF;
+
+}
+.line1 {
+    /* Line 1 */
+
+position: absolute;
+width: 330px;
+height: 0px;
+left: 25px;
+top: 80px;
+
+border: 0.5px solid #FFFFFF;
+
+}
+.golovna {
+    /* ГОЛОВНА */
+
+position: absolute;
+width: 152px;
+height: 44px;
+left: 115px;
+top: 75px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 45px;
+
+color: #FFFFFF;
+
+}
+.golovna2 {
+ /* ОДНА ССИЛКА ДЛЯ УСІХ ТВОЇХ ПЛАТФОРМ */
+
+position: absolute;
+width: 365px;
+height: 23px;
+left: 30px;
+top: 135px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 35px #FFFFFF;
+}
+.block1 .r1 {
+    /* 1 */
+/* 1 */
+
+position: absolute;
+width: 6px;
+height: 17px;
+left: 35px;
+top: 170px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 5px #000000;
+}
+.block1 .ellipseblock1 {
+    /*ellipse1*/
+position: relative;
+top: 185px;
+left: 24px;
+width: 30px;
+height: 30px;
+background: rgb(242, 242, 242);
+border-radius: 50%;
+}
+.block1 .mtblock1 {
+    /* ЧИМ МИ ЗАЙМАЄМОСЬ? */
+
+position: absolute;
+width: 260px;
+height: 22px;
+left: 60px;
+top: 180px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.block1 .lineblock1 {
+    /*lineblock1*/
+position: relative;
+width: 5%;
+height: 0px;
+top: 205px;
+left: 70px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(105deg);
+}
+.block1 .opisblock1 {
+    /* Створюємо зручні перехідники для вашого бізнесу/блогу з сучасним дизайном на ваш смак. */
+
+position: absolute;
+width: 191px;
+height: 89px;
+left: 28px;
+top: 215px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 25px #FFFFFF;
+
+}
+.block2 .r2 {
+/* 2 */
+
+position: absolute;
+width: 6px;
+height: 17px;
+left: 159px;
+top: 325px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 5px #000000;
+}
+.block2 .ellipseblock2 {
+position: relative;
+height: 30px;
+width: 30px;
+top: 311px;
+left: 150px;
+border-radius: 50%;
+background: rgb(242, 242, 242);
+}
+.block2 .lineblock2 {
+    position: absolute;
+    width: 1.5px;
+    height: 23px;
+    left: 200px;
+    top: 385px;
+    
+    background: #FFFFFF;
+    border-radius: 1px solid #FFFF;
+    transform: rotate(15deg);
+}
+.block2 .mtblock2 {
+    position: absolute;
+width: 500px;
+    left: 185px;
+    top: 340px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.block2 .opisblock2 {
+    /* Мінімалістичний дизайн. Адаптація під мобільний. Прямі посилання на ваші мережі. */
+
+position: absolute;
+width: 201px;
+height: 94px;
+left: 150px;
+top: 375px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 25px #FFFFFF;
+}
+.block3 .ellipseblock3 {
+position: relative;
+height: 30px;
+width: 30px;
+top: 430px;
+left: 24px;
+border-radius: 50%;
+background: rgb(242, 242, 242);
+}
+.block3 .r3 {
+position: absolute;
+width: 6px;
+height: 17px;
+left: 32.5px;
+top: 473.5px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 5px #000000;    
+}
+.block3 .mtblock3 {
+/* ДЛЯ КОГО ЦЕ? */
+
+position: absolute;
+width: 149px;
+height: 22px;
+left: 60px;
+top: 490px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.block3 .lineblock3 {
+    position: absolute;
+    width: 1.5px;
+    height: 23px;
+    left: 70px;
+    top: 535px;
+    
+    background: #FFFFFF;
+    border-radius: 1px solid #FFFF;
+    transform: rotate(15deg);
+}
+.block3 .opisblock3 {
+position: absolute;
+width: 201px;
+height: 94px;
+left: 30px;
+top: 525px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 25px #FFFFFF;
+}
+.block4 .ellipseblock4 {
+position: relative;
+height: 30px;
+width: 30px;
+top: 540px;
+left: 150px;
+border-radius: 50%;
+background: rgb(242, 242, 242);
+}
+.block4 .r4 {
+position: absolute;
+width: 6px;
+height: 17px;
+left: 157px;
+top: 614px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 5px #000000;
+}
+.block4 .mtblock4 {
+    position: absolute;
+width: 500px;
+    left: 185px;
+    top: 635px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #FFFFFF
+}
+.block4 .lineblock4 {
+    position: absolute;
+    width: 1.5px;
+    height: 23px;
+    left: 200px;
+    top: 680px;
+    
+    background: #FFFFFF;
+    border-radius: 1px solid #FFFF;
+    transform: rotate(15deg);
+}
+.block4 .opisblock4 {
+position: absolute;
+width: 280px;
+height: 94px;
+left: 100px;
+top: 670px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 25px #FFFFFF;
+}
+.line5 {
+position: absolute;
+width: 330px;
+height: 0px;
+left: 25px;
+top: 800px;
+
+border: 0.5px solid #FFFFFF;
+}
+.cttp {
+/* ГОТОВІ СТВОРИТИ CВІЙ LINK IN BIO? */
+
+position: absolute;
+width: 376px;
+height: 30px;
+left: 40px;
+top: 740px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 180px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.line6 {
+/* Line 8 */
+
+position: absolute;
+width: 25px;
+height: 0px;
+left: 175px;
+top: 870px;
+
+border: 0.5px solid #FFFFFF;
+transform: rotate(90deg);
+}
+.ellipse-link {
+display: inline-block;
+text-decoration: none;
+}
+.ellipse {
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 230px;
+height: 40px;
+border-radius: 999px;
+background: #949494;
+color: #FFFFFF;
+font-weight: 900;
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+top: 895px;
+left: 70px;
+}
+.line7{
+position: absolute;
+width: 25px;
+height: 0px;
+left: 180px;
+top: 965px;
+
+border: 0.5px solid #FFFFFF;
+transform: rotate(90deg);
+}
+.footertext {
+/* НАПИШІТЬ НАМ І СТАНЬТЕ КРАЩЕ ТА ЗРУЧНІШИМИ ЗА КОНКУРЕНТІВ! */
+
+position: absolute;
+width: 325px;
+height: 60px;
+left: 30px;
+top: 985px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.avtor {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.6;
+    font-weight: 100;
+    font-size: 10px;
+    position: absolute;
+    top: 1070px;
+    left: 110px;
+    height: 50px;
+    width: 200px;
+    letter-spacing: 0.5m;
+    color: #FFFFFF;
+}
